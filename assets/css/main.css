@@ -9,4 +9,40 @@ body {
   background-color: #1b1b1b;
 }
 
+* {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+* * {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+
+* * * {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+* * * * {
+  background-color: rgba(255, 0, 255, 0.2);
+}
+
+* * * * * {
+  background-color: rgba(0, 255, 255, 0.2);
+}
+
+* * * * * * {
+  background-color: rgba(255, 255, 0, 0.2);
+}
+
+* * * * * * * {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+* * * * * * * * {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+
+* * * * * * * * * {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
 /*# sourceMappingURL=main.css.map */
