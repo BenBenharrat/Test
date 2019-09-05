@@ -1,18 +1,12 @@
-/* Error: Undefined variable.
- *    ,
- * 21 |   max-width: $max-width; /* 1 *∕
- *    |              ^^^^^^^^^^
- *    '
- *   base/_helpers.scss 21:14  @import
- *   main.scss 17:3            root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 21 \2502    max-width: $max-width; /* 1 */\a    \2502               ^^^^^^^^^^\a    \2575 \a   base/_helpers.scss 21:14  @import\a   main.scss 17:3            root stylesheet";
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box;
 }
+
+body {
+  background-color: #1b1b1b;
+}
+
+/*# sourceMappingURL=main.css.map */
